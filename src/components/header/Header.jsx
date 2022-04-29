@@ -37,10 +37,9 @@ export default function Header() {
                     src="https://source.unsplash.com/800x580/?blog,people"
                     // "https://images.pexels.com/photos/1858175/pexels-photo-1858175.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
                     alt="me"
-                /></Link>
-                <span>
-                 <a href="/mypage">유람님 방가워요!</a>
-                </span>
+                />
+                <span>유람님 방가워요!</span>
+                </Link>
             </div>
         </header>
     );
