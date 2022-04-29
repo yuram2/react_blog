@@ -9,7 +9,7 @@ export default function Write() {
                     <fieldset>
                         <legend className="ir_so">블로그 게시글 작성 영역</legend>
                         <div>
-                            <label for="blogCate">카테고리</label>
+                            <label htmlFor="blogCate">카테고리</label>
                             <select name="blogCate" id="blogCate">
                                 <option value="javascript">javascript</option>
                                 <option value="jquery">jquery</option>

@@ -37,6 +37,7 @@ function App() {
                 <Route path="/mypage" exact>
                     <Mypage />
                 </Route>
+                
             </Switch>
             <Footer />
         </Router>

@@ -35,9 +35,9 @@ export default function View() {
                                 src="https://coupa.ng/ccozLj"
                                 width="300"
                                 height="300"
-                                frameborder="0"
+                                frameBorder="0"
                                 scrolling="no"
-                                referrerpolicy="unsafe-url"
+                                referrerPolicy="unsafe-url"
                             ></iframe>
                         </div>
                     </div>
