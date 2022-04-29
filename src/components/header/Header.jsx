@@ -32,14 +32,15 @@ export default function Header() {
             </nav>
             <div className="member">
                 <span className="ir_so">회정 정보 영역</span>
-                <a href="/mypage">
+                <Link to="/mypage">            
                 <img
                     src="https://source.unsplash.com/800x580/?blog,people"
                     // "https://images.pexels.com/photos/1858175/pexels-photo-1858175.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
                     alt="me"
-                /></a>
-                <span>유람님 방가워요!</span>
-                
+                /></Link>
+                <span>
+                 <a href="/mypage">유람님 방가워요!</a>
+                </span>
             </div>
         </header>
     );
