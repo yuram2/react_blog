@@ -3,8 +3,8 @@ import "./join.css";
 
 export default function Join() {
     return (
-        <section className="blog__login">
-            <div className="member__form">
+        <section className="join-type section">
+            <div className="member-form">
                 <h3>회원가입</h3>
                 <form>
                     <fieldset>

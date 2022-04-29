@@ -4,10 +4,10 @@ import "./write.css";
 export default function Write() {
     return (
         <main id="main">
-            <div class="blog__write">
+            <div className="blog__write">
                 <form>
                     <fieldset>
-                        <legend class="ir_so">블로그 게시글 작성 영역</legend>
+                        <legend className="ir_so">블로그 게시글 작성 영역</legend>
                         <div>
                             <label for="blogCate">카테고리</label>
                             <select name="blogCate" id="blogCate">
